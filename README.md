@@ -2,7 +2,7 @@
 
 #### Laptop Specs
 
-- Intel(R) Core i5-8300H
+- Intel(R) Core i5-9300H
 - Intel(R) UHD 630
 - Nvidia GeForce GTX 1650 (Turing GPUs have no support in Mac OS)
 - Intel(R) Dual Band Wireless-AC 9560
