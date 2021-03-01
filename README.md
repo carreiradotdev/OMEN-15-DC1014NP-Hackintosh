@@ -18,7 +18,6 @@
 - [x] Power management.
 - [x] Webcam.
 - [x] Audio.
-- [TODO] Sleep.
 
 #### What doesn't work:
 - ── Nvidia GeForce GTX 1650 (Turing GPUs have no support in Mac OS)
