@@ -6,7 +6,7 @@
 - Intel(R) UHD 630
 - Nvidia GeForce GTX 1650 (Turing GPUs have no support in Mac OS)
 - Intel(R) Dual Band Wireless-AC 9560
-- NVME and Sata hdd
+- NVMe 
 
 #### What works:
 - [x] Intel GPU.
@@ -21,7 +21,7 @@
 
 #### What doesn't work:
 - ── Nvidia GeForce GTX 1650 (Turing GPUs have no support in Mac OS)
-- ── Touchpad
+- ── ~~Touchpad~~ (As of 1/03/2021, Touchpad is working with one finger, buttons are still unresponsive.)
 - ── Sleep
 
 #### Known bugs:
@@ -39,16 +39,4 @@ Kexts in **Bold** are required to boot to the installer:
 - ── SMCProcessor.kext 
 - ── NoTouchID
 - ── [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
-- ── [WIFI](https://github.com/OpenIntelWireless/itlwm) (You have to build it yourself)
-
-You can download them [here](https://dortania.github.io/vanilla-laptop-guide/OpenCore/ktext.html)
-
-#### Clover Setup
-
-Use the lastest version of Clover (version i am using is v5.0 r5119)
-- ── Clover UEFI
-- ── AptioMemoryFix
-- ── EmuVariableUEFI
-- ── Script to target volume
-- ── APFS and HFS+ Driver
-
+- ── [WIFI](https://github.com/OpenIntelWireless/itlwm)

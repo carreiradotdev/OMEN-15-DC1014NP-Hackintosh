@@ -84,6 +84,16 @@
 					<key>Comment</key>
 					<string>CUU3</string>
 				</dict>
+				<dict>
+					<key>Find</key>
+					<data>SERBUw==</data>
+					<key>Replace</key>
+					<data>SERFRg==</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>HDAS to HDEF</string>
+				</dict>
 			</array>
 			<key>Fixes</key>
 			<dict>
@@ -193,7 +203,7 @@
 			<key>AFGLowPowerState</key>
 			<true/>
 			<key>Inject</key>
-			<integer>13</integer>
+			<integer>3</integer>
 		</dict>
 		<key>InjectHDMI</key>
 		<false/>
@@ -431,9 +441,11 @@
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>Trust</key>
-		<true/>
+		<key>SmUUID</key>
+		<string>1283FC57-0E7C-40B6-A714-F3D799D9E066</string>
 		<key>NoRomInfo</key>
+		<true/>
+		<key>Trust</key>
 		<true/>
 		<key>Mobile</key>
 		<false/>
