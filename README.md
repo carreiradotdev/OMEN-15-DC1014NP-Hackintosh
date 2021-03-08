@@ -32,7 +32,6 @@ Kexts in **Bold** are required to boot to the installer:
 - ── **VirtualSMC**
 - ── **Lilu**
 - ── **WhateverGreen**
-- ── **VoodooPS2Controller** (Rehabman Kext for the mouse and keyboard)
 - ── AppleALC (with codec injection number 13)
 - ── SMCBatteryManager.kext
 - ── SMCSuperIO
